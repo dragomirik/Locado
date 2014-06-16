@@ -1,0 +1,1 @@
+<meta name="description" content="<?php echo $my_pages["meta_d"]; ?>" />

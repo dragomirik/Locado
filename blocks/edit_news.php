@@ -1,0 +1,2 @@
+<?php hide_module();
+?>

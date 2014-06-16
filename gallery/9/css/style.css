@@ -1,0 +1,50 @@
+body {
+    background:#eee;
+    margin:0;
+    padding:0;
+}
+.example {
+    position:relative;
+    background-color:#fff;
+    width:700px;
+    overflow:hidden;
+    border:1px #000 solid;
+    margin:20px auto;
+    padding:20px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+#gallery {
+    height:600px;
+    position:relative;
+    width:100%;
+}
+#gallery div,#gallery div a {
+    height:128px;
+    overflow:hidden;
+    width:192px;
+}
+#gallery div {
+    background-color:#fff;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    border:2px solid #000;
+    left:250px;
+    padding:5px;
+    position:absolute;
+    top:200px;
+
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+
+    -moz-box-shadow:3px 3px 4px #444;
+    -webkit-box-shadow:3px 3px 4px #444;
+    box-shadow:3px 3px 4px #444;
+}
+#gallery div a {
+    display:block;
+    text-indent:-1000px;
+}

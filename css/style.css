@@ -1,0 +1,92 @@
+/*vertical menu begin*/
+.ul_null{
+margin:0px;
+list-style: none;
+padding:0;
+margin-top:3px;
+margin-bottom:10px;
+}
+.ul_null li{
+text-align: left;/*center;*/
+margin-left:10px;
+margin-right:10px;
+/*margin-left:0px;*/
+padding-top:5px;
+padding-bottom:5px;
+padding-left:15px;
+background: url("../img/delta.png") no-repeat left 0;
+border-bottom: 1px solid rgba(224,224,224,1);
+}
+.ul_null li:hover{
+margin-left:13px;
+}
+.ul_null li a{
+text-decoration:none;
+display:inline-block;
+}
+.ul_null li:first-of-type {
+border-top: 0;
+}
+.ul_left li{
+text-align: left;
+margin-left:10px;
+}
+.ul_null  li a span{
+display:block;
+color:#25558C;
+}
+.ul_null  li a:hover{
+text-decoration: none;
+}
+.ul_null  li:hover{
+/*background: rgba(219,240,246,0.8);*/
+text-decoration: none;
+}/*
+.rtr, li, li a{
+margin:0;}*/
+/*vertical menu end*/
+/*horisintal navigator begin*/
+.menu{
+margin:0px;
+padding-left:0px;
+padding-top:5px;
+padding-bottom:5px;
+font-size:12px;
+text-decoration: none;
+/*background:url("../img/btn2.png")  repeat-x center 0;*/
+}
+.par_des {
+cursor:pointer; 
+text-decoration:underline;
+}
+.par_des:hover {
+text-decoration:none;
+}
+/*horisintal navigator end*/
+table,td,th{
+border:1px solid #009AE1;
+}
+
+table{
+border-collapse:collapse;
+}
+
+td,th{
+padding:3px;
+}
+
+th{
+font-weight:bold;
+text-align:center;
+vertical-align:middle;
+background:#eee;
+color:#25568C;
+}
+.table_none,.table_none td{
+border:0;
+padding:none;
+}
+/*
+.table_none td{
+padding:0px;
+}*/

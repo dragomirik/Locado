@@ -1,0 +1,1 @@
+<div style="font-size:120px; color:red;text-align:center;">404</div><div style="font-size:50px;text-align:center;">Заданої сторінки не існує</div>

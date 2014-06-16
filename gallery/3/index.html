@@ -1,0 +1,78 @@
+
+<style type="text/css">
+
+#large {
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	background: url(example/indicato.gif) no-repeat 50% 40%;
+}
+#large img {
+	width: 350px;
+	height: 263px;
+	border: 5px solid #223348;
+}
+#thumbnail {
+	width: 210px;
+	height: 256px;
+	overflow: auto;
+	float: left;
+	list-style: none;
+	margin-top: 50px;
+	margin-left: 16px;
+	_margin-left: 8px;
+	padding: 5px;
+	border: 3px solid #223348;
+	background: #fff;
+}
+#thumbnail li {
+	float: left;
+	width: 79px;
+	margin: 8px;
+	_margin: 5px;
+}
+#thumbnail a {
+	display: block;
+	width: 75px;
+	height: 56px;
+	padding: 1px;
+	border: 1px solid #ccc;
+}
+#thumbnail a:hover {
+	border-color: #405061;
+}
+</style>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#thumbnail li a").click(function(){
+		$("#large img").hide().attr({"src": $(this).attr("href"), "title": $("> img", this).attr("title")});
+		$("#large h2").html($("> img", this).attr("title"));
+		return false;
+	});
+	$("#large>img").load(function(){$("#large>img:hidden").fadeIn("slow")});
+});
+</script>
+
+<div id="large">
+	<img src="image010.jpg" title="" alt="image01.jpg">
+</div>
+<ul id="thumbnail">
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image01.jpg"><img src="image011.jpg" title="" alt="image01.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image02.jpg"><img src="image020.jpg" title="" alt="image02.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image03.jpg"><img src="./jQuery Gallery_files/image030.jpg" title="" alt="image03.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image04.jpg"><img src="./jQuery Gallery_files/image040.jpg" title="" alt="image04.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image05.jpg"><img src="./jQuery Gallery_files/image050.jpg" title="" alt="image05.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image06.jpg"><img src="./jQuery Gallery_files/image060.jpg" title="" alt="image06.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image07.jpg"><img src="./jQuery Gallery_files/image070.jpg" title="" alt="image07.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image08.jpg"><img src="./jQuery Gallery_files/image080.jpg" title="" alt="image08.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image09.jpg"><img src="./jQuery Gallery_files/image090.jpg" title="" alt="image09.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image10.jpg"><img src="./jQuery Gallery_files/image100.jpg" title="" alt="image10.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image11.jpg"><img src="./jQuery Gallery_files/image110.jpg" title="" alt="image11.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image12.jpg"><img src="./jQuery Gallery_files/image120.jpg" title="" alt="image12.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image13.jpg"><img src="./jQuery Gallery_files/image130.jpg" title="" alt="image13.jpg"></a></li>
+	<li><a href="http://ruseller.com/lessons/les389/example/big/image14.jpg"><img src="./jQuery Gallery_files/image140.jpg" title="" alt="image14.jpg"></a></li>
+</ul>

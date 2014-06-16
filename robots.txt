@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /cabinet.php
+Disallow: /reg.php
+Disallow: /remind.php
+Disallow: /add_a.php
+Disallow: /reg_a.php
+Disallow: /add_page.php
+Disallow: /reg_p.php
+Disallow: /search_view.php
+
+Sitemap: /sitemap.xml

@@ -1,0 +1,33 @@
+<link href="css/multibox.css" rel="stylesheet" type="text/css" /> 
+<link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" />
+ 
+<script type="text/javascript" src="js/mootools.js"></script> 
+<script type="text/javascript" src="js/overlay.js"></script> 
+<script type="text/javascript" src="js/multibox.js"></script> 
+ 
+<style type="text/css"> 
+ 
+#htmlElement {
+	padding: 10px;
+	background-color: #000;
+}
+ 
+</style> 
+
+		<div id="gallery"> 
+			
+            <a href="photos/river.jpg" id="mb1" class="mb" title="Высокогорная речушка"><img src="photos/river_mini.jpg" alt="" border="0" /></a> 
+  			<div class="multiBoxDesc mb1">Здесь будет описание фотографии &quot;Высокогорная речушка&quot;</div> 
+  
+  <a href="photos/shan-khai.jpg" id="mb2" class="mb" title="Шан-хай"><img src="photos/shan-khai_mini.jpg" alt="" border="0" /></a> 
+  <div class="multiBoxDesc mb2">Здесь будет описание фотографии &quot;Шан-хай&quot;</div> 
+
+  <a href="photos/dew.jpg" id="mb3" class="mb" title="Росинки"><img src="photos/dew_mini.jpg" alt="" border="0" /></a> 
+  <div class="multiBoxDesc mb3">Здесь будет описание фотографии &quot;Росинки&quot;</div><br /> 
+			</div> 
+		<script type="text/javascript"> 
+			var box = {};
+			window.addEvent('domready', function(){
+				box = new MultiBox('mb', {descClassName: 'multiBoxDesc', useOverlay: true});
+			});
+		</script> 

@@ -1,0 +1,1 @@
+<?php echo setting('name')." - ".$my_pages["title"];?>

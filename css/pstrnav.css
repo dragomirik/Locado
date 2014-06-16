@@ -1,0 +1,53 @@
+/*article some page navigation begin*/
+#pstrnav span .this{
+font-weight:bold; 
+background: url("../img/navh.png");
+color:#25558C;
+}
+
+#pstrnav span span {
+background: url("../img/nav.png");
+width:25px;
+height:25px;
+margin:5px;
+display:inline;
+vertical-align:middle;
+cursor:pointer;
+padding-top:3px;
+padding-bottom:3px;
+padding-left:9px;
+padding-right:9px;
+border-radius:3px;
+color:#DBE8F0;
+-webkit-box-shadow: inset 0px 0px 0px #00642A, 0px 3px 2px gray;
+-moz-box-shadow: inset 0px 0px 0px #00642A, 0px 3px 2px gray;
+-o-box-shadow: inset 0px 0px 0px #00642A, 0px 3px 2px gray;
+box-shadow: inset 0px 0px 0px #63A817, 0px 3px 2px gray;
+}
+#pstrnav span a {
+text-decoration:none;}
+#pstrnav span a:hover {
+text-decoration:none;}
+#pstrnav span{
+display:inline;
+}
+#pnavstr{
+text-align:center;
+}
+.this:hover{
+ font-weight:bold; 
+background: url("../img/navh.png");
+}
+#pstrnav span span:hover{
+border: 3px solid rgba(37,85,140,0.5);
+margin-left:2px;
+margin-right:2px;
+-webkit-box-shadow: inset 0px 0px 0px #00642A, 0px 0px 0px #000;
+-moz-box-shadow: inset 0px 0px 0px #00642A, 0px 0px 0px #000;
+-o-box-shadow: inset 0px 0px 0px #00642A, 0px 0px 0px #000;
+box-shadow: inset 0px 0px 0px #63A817, 0px 0px 0px gray;
+}
+#pstrnav span {
+display:block;
+}
+/*article some page navigation end*/

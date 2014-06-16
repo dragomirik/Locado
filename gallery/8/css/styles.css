@@ -1,0 +1,102 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background:url('../img/page_bg_tile.jpg') #202027;
+}
+
+body{
+	color:#999;
+	
+	background-image:url('../img/contour.png'),url('../img/page_bg.jpg');
+	background-repeat:no-repeat,no-repeat;
+	background-position: center 117px, center -200px;
+
+	font:15px Calibri,Arial,sans-serif;
+	border:1px solid transparent;
+}
+
+/* Стили для слайдшоу */
+
+#slideShowContainer{
+	width:610px;
+	height:610px;
+	position:relative;
+	margin:10px auto 10px;
+}
+
+#slideShow{
+	position:absolute;
+	height:590px;
+	width:590px;
+	background-color:#fff;
+	margin:10px 0 0 10px;
+	z-index:100;
+	
+	-moz-box-shadow:0 0 10px #111;
+	-webkit-box-shadow:0 0 10px #111;
+	box-shadow:0 0 10px #111;
+}
+
+#pictures { position: relative; height: 408px; }
+#pictures img { position: absolute; top: 0; left: 0; margin: 26px 0 0 10px;
+max-width:550px;
+max-height:550px;}
+
+#slideShowContainer > a{
+	border:none;
+	text-decoration:none;
+	text-indent:-99999px;
+	overflow:hidden;
+	width:36px;
+	height:37px;
+	background:url('../img/arrows.png') no-repeat;
+	position:absolute;
+	top:50%;
+	margin-top:-21px;
+}
+
+#previousLink{
+	left:-38px;
+}
+
+#previousLink:hover{
+	background-position:bottom left;
+}
+
+a#nextLink{
+	right:-38px;
+	background-position:top right;
+}
+
+#nextLink:hover{
+	background-position:bottom right;
+}
+
+/* Общие стили */
+
+.note{
+	margin-bottom:40px;
+	text-align:center;
+}
+
+.credit{
+	font-size:12px;
+}
+
+.credit a{
+	color:#bbb !important;
+}
+
+
+a, a:visited {
+	text-decoration:underline;
+	outline:none;
+	color:#97CAE6;
+}
+
+a:hover{
+	text-decoration:none;
+}
